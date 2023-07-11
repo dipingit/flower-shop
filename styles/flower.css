@@ -1,0 +1,69 @@
+/* common shared styles */
+body{
+    font-family: 'Lato';
+}
+
+.btn-primary{
+    border-radius: 8px;
+    border: none;
+    background: #E55473;
+    padding: 15px 35px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+/* shop styles */
+
+.shop-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(229, 84, 115, 0.10);
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.shop{
+    padding-left: 240px;
+    padding-right: 100px;
+}
+.shop-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0;
+
+}
+.shop-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.shop-container img{
+    width: 535px;
+    height: 500px;
+    padding-right: 140px;
+    padding-top: 50px;
+    padding-bottom: 0;
+}
+
+/* discount section styles */
+.discount-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(229, 84, 115, 0.10);
+
+}
+.section-title{
+    text-align: center;
+}
+.section-description{
+    text-align: center;
+}
+.discount-container img{
+    width: 318px;
+    height: 420px;
+    padding: 100px 0px;
+}
