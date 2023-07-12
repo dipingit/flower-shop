@@ -52,18 +52,33 @@ body{
 .discount-container{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: rgba(229, 84, 115, 0.10);
 
 }
 .section-title{
     text-align: center;
+    color: #272727;
+    font-size: 25px;
+    font-weight: 800;
+}
+.section-title span{
+    color:#E55473
 }
 .section-description{
-    text-align: center;
+    padding-left: 220px;
+    margin-bottom: 25px;
+    color: rgba(39, 39, 39, 0.60);
+    /* text-align: center; */
+    font-size: 18px;
+    font-weight: 400;
 }
 .discount-container img{
-    width: 318px;
-    height: 420px;
-    padding: 100px 0px;
+    width: 250px;
+    height: 350px;
+    padding: 100px 250px 100px 0px;
+}
+
+#btn-signup{
+    margin-left: 380px;
 }
