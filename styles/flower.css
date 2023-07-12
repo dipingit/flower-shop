@@ -56,16 +56,16 @@ body{
     background-color: rgba(229, 84, 115, 0.10);
 
 }
-.section-title{
+.discount-title{
     text-align: center;
     color: #272727;
     font-size: 25px;
     font-weight: 800;
 }
-.section-title span{
+.discount-title span{
     color:#E55473
 }
-.section-description{
+.discount-description{
     padding-left: 220px;
     margin-bottom: 25px;
     color: rgba(39, 39, 39, 0.60);
@@ -81,4 +81,27 @@ body{
 
 #btn-signup{
     margin-left: 380px;
+}
+
+/* instagram section styles */
+.insta-title{
+    text-align: center;
+    color: #272727;
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 50px;
+}
+.insta-description{
+    padding-left: 220px;
+    margin-bottom: 0px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+.insta-images{
+    width: 280px;
+    height: 300px;
+    display: flex;
+    gap: 24px;
+    padding: 40px 0px 100px 120px ;
 }
