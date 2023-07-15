@@ -48,15 +48,84 @@ body{
     padding-bottom: 0;
 }
 
+/* featured flower styles */
+
+.feature-flower-container{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.description{
+    margin-bottom: 70px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 70px;
+    line-height: 30px;
+}
+.contents {
+    text-align: center;
+    padding-bottom: 15px;
+}
+.boxes-items h4 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.boxes-items h4 a {
+    color: #272727;
+}
+.boxes {
+    height: 370px;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    width: 260px;
+    border-radius: 100px 100px 0px 0px;
+    background-position: bottom;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+}
+.boxes-one{
+    background: rgba(167, 33, 98, 0.15);;
+}
+.boxes-two{
+    background: rgba(5, 151, 160, 0.15);
+}
+.boxes-three{
+    background: rgba(71, 125, 17, 0.15);
+}
+.single-boxes {
+    border-radius: 300px 300px 0px 0px;
+}
+
 /* discount section styles */
 .discount-container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     background-color: rgba(229, 84, 115, 0.10);
 
 }
 .discount-title{
+    padding-left: 100px;
     text-align: center;
     color: #272727;
     font-size: 25px;
@@ -66,21 +135,20 @@ body{
     color:#E55473
 }
 .discount-description{
-    padding-left: 220px;
+    padding-left: 300px;
     margin-bottom: 25px;
     color: rgba(39, 39, 39, 0.60);
-    /* text-align: center; */
     font-size: 18px;
     font-weight: 400;
 }
 .discount-container img{
     width: 250px;
     height: 350px;
-    padding: 100px 250px 100px 0px;
+    padding: 100px 220px 100px 0px;
 }
 
 #btn-signup{
-    margin-left: 380px;
+    margin-left: 420px;
 }
 
 /* instagram section styles */
@@ -92,11 +160,12 @@ body{
     margin-top: 50px;
 }
 .insta-description{
-    padding-left: 220px;
+    text-align: center;
     margin-bottom: 0px;
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
+    line-height: 30px;
 }
 .insta-images{
     width: 280px;
@@ -104,4 +173,68 @@ body{
     display: flex;
     gap: 24px;
     padding: 40px 0px 100px 120px ;
+}
+
+/* Latest Deals Section Styles */
+.latest-deals-container{
+    background-image: url('../images/deals-back.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 420px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.latest-deals input{
+    width: 700px;
+    height: 40px;
+    border: rgb(255, 255, 255);
+    margin-top: 45px;
+}
+
+.latest-deals-title{
+    text-align: center;
+    color: #272727;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.latest-deals-description{
+    margin-top: 30px;
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* footer section */
+.footer-container{
+    padding: 100px;
+    background-color: #111010;
+    text-align: center;
+}
+
+.footer-title{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+}
+.footer-title span{
+    color:#E55473;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    margin-top: 24px;
+    margin-bottom: 32px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.footer small{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
 }
